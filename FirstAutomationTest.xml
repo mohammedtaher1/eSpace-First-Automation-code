@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="eSpace.FirstAutomationTest.LoginTestChromeDriver" />
+			<class name="eSpace.FirstAutomationTest.LoginTest_FirefoxDriver" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
