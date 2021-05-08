@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="eSpace.FirstAutomationTest.CrossBrowsersTest">
+      <class name="eSpace.FirstAutomationTest.CrossBrowsersTest_QB">
         <methods>
           <include name="loginTest"/>
-          <include name="StartingDriver"/>
           <include name="ClosingDriver"/>
+          <include name="StartingDriver"/>
         </methods>
-      </class> <!-- eSpace.FirstAutomationTest.CrossBrowsersTest -->
+      </class> <!-- eSpace.FirstAutomationTest.CrossBrowsersTest_QB -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -4,13 +4,25 @@
   <test thread-count="2" parallel="tests" name="ChromeTest(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="eSpace.FirstAutomationTest.CrossBrowsersTest">
+      <class name="eSpace.FirstAutomationTest.CrossBrowsersTest_QB">
         <methods>
           <include name="loginTest"/>
-          <include name="StartingDriver"/>
           <include name="ClosingDriver"/>
+          <include name="StartingDriver"/>
         </methods>
-      </class> <!-- eSpace.FirstAutomationTest.CrossBrowsersTest -->
+      </class> <!-- eSpace.FirstAutomationTest.CrossBrowsersTest_QB -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
+  <test thread-count="2" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="eSpace.FirstAutomationTest.CrossBrowsersTest_QB">
+        <methods>
+          <include name="loginTest"/>
+          <include name="ClosingDriver"/>
+          <include name="StartingDriver"/>
+        </methods>
+      </class> <!-- eSpace.FirstAutomationTest.CrossBrowsersTest_QB -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
